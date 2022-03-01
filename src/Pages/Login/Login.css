@@ -1,0 +1,90 @@
+.form {
+  box-shadow: 0rem 0.3rem 2rem 0.6rem rgba(3, 3, 3, 0.1);
+
+  width: 40%;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 4rem;
+  margin-top: 2rem;
+  padding: 2rem;
+  border-radius: 0.5rem;
+}
+
+@media (max-width: 900px) {
+  .form {
+    width: 50%;
+  }
+}
+@media (max-width: 680px) {
+  .form {
+    width: 70%;
+  }
+}
+@media (max-width: 480px) {
+  .form {
+    width: 90%;
+  }
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.form-group {
+  display: grid;
+  grid-template-columns: 6rem 1fr;
+  place-items: start;
+  align-items: baseline;
+}
+input {
+  width: 86%;
+  padding: 0.5rem;
+  font-size: 1rem;
+  background: white;
+  border: 1px solid;
+  border-radius: 0.2rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.buttonClass {
+  font-size: 25px;
+  font-family: Arial;
+  list-style: none;
+  text-decoration: none;
+  padding: 0.5rem 2rem;
+  height: 50px;
+  border-width: 1px;
+  color: #fff;
+  border-color: #566963;
+  font-weight: bold;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  box-shadow: inset 0px 1px 3px 0px #91b8b3;
+  text-shadow: inset 0px -1px 0px #2b665e;
+  background: linear-gradient(#768d87, #6c7c7c);
+}
+
+.buttonClass:hover {
+  background: linear-gradient(#6c7c7c, #768d87);
+}
+
+label {
+  font-size: 1.3rem;
+}
+
+.forgot-password,
+.forgot-password a {
+  text-align: right;
+  font-size: 13px;
+  padding-top: 10px;
+  color: #7f7d7d;
+  margin: 0;
+  margin-bottom: 2rem;
+}
+
+.forgot-password a {
+  color: #167bff;
+}

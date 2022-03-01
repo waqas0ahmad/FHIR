@@ -1,0 +1,237 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  flex-wrap: wrap;
+}
+
+img {
+  width: 50px;
+}
+
+.main {
+  width: 90%;
+  margin: auto;
+}
+
+.resource,
+.searchheading {
+  width: 80%;
+  margin: auto;
+  margin-top: 2rem;
+}
+
+@media (max-width: 800px) {
+  .resource,
+  .searchheading {
+    width: 95%;
+  }
+}
+
+.heading {
+  background: #cbe0e5;
+  height: 30px;
+  padding-left: 10px;
+}
+
+.dropdown {
+  width: 40% !important;
+  padding: 3px !important;
+  margin: 1rem 0rem 1rem 6rem;
+}
+.dropdown2 {
+  /* width: 70% !important; */
+  padding: 3px !important;
+  /* margin: 1rem 0rem 1rem 6rem; */
+}
+
+.option {
+  display: flex;
+  justify-content: start;
+}
+
+.input {
+  display: flex;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  margin-left: 7rem;
+}
+
+@media (max-width: 680px) {
+  .input {
+    margin-left: 0rem;
+  }
+}
+
+label {
+  margin-right: 1rem;
+}
+
+.center {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+}
+
+.button {
+  background: #cbe0e5;
+  padding: 5px 30px;
+  font-weight: 500;
+  margin-right: 1rem;
+  margin-top: 2rem;
+}
+
+.search {
+  background: #cbe0e5;
+}
+
+.searchheading {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 3rem;
+}
+
+.example {
+  display: flex;
+  align-items: center;
+  column-gap: 0.5rem;
+}
+
+form.example input[type="text"] {
+  padding: 10px;
+  font-size: 17px;
+  float: left;
+  width: 30%;
+  background: white;
+  border: none;
+}
+
+form.example button {
+  float: left;
+  width: 15%;
+  padding: 10px;
+  background: #28a2b9;
+  color: white;
+  font-size: 17px;
+  border-left: none;
+  cursor: pointer;
+  border: none;
+}
+
+.icon {
+  border: none;
+  padding: 10px;
+  background: #28a2b9;
+  margin-right: 0.5rem;
+}
+
+.dropdowncal1 {
+  padding: 11px;
+  margin-right: 3rem;
+  border: none;
+  width: 50%;
+}
+@media (max-width: 850px) {
+  .dropdowncal1 {
+    padding: 11px;
+    border: none;
+    padding-right: 4.5rem;
+    margin-right: 6rem;
+    width: 56%;
+  }
+}
+
+.dropdowncal {
+  padding: 11px 7px;
+  background: #28a2b9;
+  width: 17%;
+}
+
+input[type="date"] {
+  padding: 9px;
+  margin: 3px;
+  width: 75%;
+}
+
+@media (max-width: 400px) {
+  input[type="date"],
+  .dropdowncal1 {
+    margin-right: 0rem;
+  }
+  .dropdowncal1 {
+    width: 80%;
+  }
+  .dropdowncal {
+    width: 25%;
+  }
+}
+
+.calander {
+  width: 80%;
+  margin: auto;
+  margin-top: 3rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: baseline;
+}
+
+@media (max-width: 1120px) {
+  .calander {
+    width: 98%;
+  }
+}
+@media (max-width: 1000px) {
+  .calander {
+    grid-template-columns: 1fr 1fr;
+    width: 80%;
+  }
+}
+@media (max-width: 850px) {
+  .calander {
+    grid-template-columns: 1fr;
+    width: 80%;
+    place-items: center;
+  }
+}
+
+.searchbt {
+  margin: auto;
+  text-align: center;
+}
+.searchbt1 {
+  background: #28a2b9;
+  padding: 0.7rem 2rem;
+  border: none;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 0.5rem;
+}
+
+.result {
+  display: grid;
+  grid-template-columns: 7rem 1fr 7rem 1fr;
+  column-gap: 1rem;
+  row-gap: 1rem;
+  margin-bottom: 2rem;
+}
+@media (max-width: 680px) {
+  .result {
+    grid-template-columns: 7rem 1fr;
+  }
+}
+
+.resultlabel {
+  background: #efefef;
+  text-align: center;
+  padding: 4px;
+}
+
+.resulttext {
+  border: 1px solid #efefef;
+  padding: 4px;
+  color: #28a2b9;
+}
